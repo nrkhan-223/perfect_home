@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Add_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#4DD3E4"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="137dp"
+                android:fontFamily="@font/alfaregular"
+                android:includeFontPadding="false"
+                android:text="Add Home"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:elevation="20dp"
+            android:background="#EDD3D2CF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_search"
+                app:hintTextColor="@color/black"
+                android:hint="Property Name">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:id="@+id/addhome_popertyname"
+                    android:drawablePadding="10dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_search"
+                app:hintTextColor="@color/black"
+                android:hint="Address">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="match_parent"
+                    android:id="@+id/addhome_address"
+                    android:drawablePadding="10dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                app:hintTextColor="@color/black"
+                android:background="@drawable/bg_search"
+                android:hint="Contract">
+
+                <EditText
+                    android:id="@+id/addhome_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/black"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+                <Spinner
+                    android:id="@+id/Spinnerid"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:hintTextColor="@color/black"
+                android:background="@drawable/bg_search"
+                android:hint="Description">
+
+                <EditText
+                    android:id="@+id/addhome_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/black"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                app:hintTextColor="@color/black"
+                android:background="@drawable/bg_search"
+                android:hint="Location">
+
+                <EditText
+                    android:id="@+id/addhome_location"
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="10dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                app:hintTextColor="@color/black"
+                android:background="@drawable/bg_search"
+                android:hint="price">
+
+                <EditText
+                    android:id="@+id/addhome_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:drawablePadding="10dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:elevation="20dp"
+                android:id="@+id/addimg_button"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+               android:background="@drawable/bg_search"
+                android:fontFamily="@font/alfaregular"
+                android:text="Add image"
+                android:textColor="#000000" />
+            <Button
+                android:elevation="20dp"
+                android:id="@+id/addvid_button"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_search"
+                android:fontFamily="@font/alfaregular"
+                android:text="Add Video"
+                android:textColor="#000000" />
+            <Button
+                android:elevation="20dp"
+                android:id="@+id/addhome_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#4DD3E4"
+                android:fontFamily="@font/alfaregular"
+                android:text="Add to Post"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

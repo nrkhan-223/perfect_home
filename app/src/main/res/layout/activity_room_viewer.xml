@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDD3D2CF"
+    tools:context=".HRF.Room_viewer">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/rsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_search"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search by location or name...."/>
+    <Spinner
+        android:id="@+id/filter_spinnerr"
+        android:layout_width="130dp"
+        android:layout_height="28dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/bg_price"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="#EDD3D2CF"
+        android:id="@+id/roomviewRecicle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

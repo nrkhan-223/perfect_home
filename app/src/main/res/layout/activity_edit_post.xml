@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#D2D5D6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:background="#D2D5D6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/demo_pic"
+            android:id="@+id/edit_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginTop="30dp"
+            android:text="property name"
+            android:layout_width="300dp"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:id="@+id/edit_name" />
+        <TextView
+            android:textColor="#000000"
+
+            android:layout_marginTop="10dp"
+            android:text="Address"
+            android:layout_width="300dp"
+            android:layout_height="20dp"/>
+        <EditText
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Address"
+            android:textColor="#000000"
+            android:id="@+id/edit_address"
+            android:drawablePadding="10dp"/>
+        <TextView
+            android:textColor="#000000"
+
+            android:layout_marginTop="10dp"
+            android:text="contract"
+            android:layout_width="300dp"
+            android:layout_height="20dp"/>
+        <EditText
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="contract"
+            android:textColor="#000000"
+            android:id="@+id/edit_contract"
+            android:drawablePadding="10dp"/>
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:text="property type"
+            android:layout_width="300dp"
+            android:layout_height="20dp"/>
+       <Spinner
+           android:id="@+id/category_sp"
+           android:layout_margin="2dp"
+           android:layout_marginTop="2dp"
+           android:layout_width="300dp"
+           android:layout_height="50dp"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Description" />
+
+        <EditText
+
+            android:id="@+id/edit_Description"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:drawablePadding="10dp"
+            android:hint="Description"
+            android:minHeight="48dp"
+            android:textColor="#000000" />
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:text="location"
+            android:layout_width="300dp"
+            android:layout_height="20dp"/>
+        <EditText
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="location"
+            android:textColor="#000000"
+            android:id="@+id/edit_location"
+            android:drawablePadding="10dp"/>
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:text="price"
+            android:layout_width="300dp"
+            android:layout_height="20dp"/>
+        <EditText
+            android:layout_marginTop="2dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="price"
+            android:textColor="#000000"
+            android:id="@+id/edit_price"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:id="@+id/edit_image"
+            android:layout_marginTop="20dp"
+            android:text="change image"
+            android:layout_width="300dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/update"
+            android:text="UPDATE"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

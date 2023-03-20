@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Perfect Home</string>
+    <string name="menu_home" />
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="user_name">User Name</string>
+
+    <string-array name="category">
+        <item>Room</item>
+        <item>Sublets</item>
+        <item>Flat</item>
+    </string-array>
+    <string-array name="filter">
+        <item>Filter by price</item>
+        <item>High To Low</item>
+        <item>Low To High</item>
+    </string-array>
+    <string name="half">half payment</string>
+    <string name="full">full payment</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EDD3D2CF"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Comunication_page">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#4DD3E4"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="37dp"
+            android:fontFamily="@font/alfaregular"
+            android:includeFontPadding="false"
+            android:text="Communication with us"
+            android:textColor="#000"
+            android:textSize="22sp" />
+    </RelativeLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="90dp"
+        android:text="Contact us if you face any problem using this application. And If you  need any necessary information, contact us by gmail."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:lines="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/bg_search"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/mail"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="perfecthome@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="Or You Can Use Phone"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:lines="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_search"
+        android:id="@+id/phone"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="01641634899"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"/>
+</LinearLayout>
